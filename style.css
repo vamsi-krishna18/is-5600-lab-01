@@ -102,6 +102,10 @@ header div a {
    padding-left: 25px;
    margin-right: 10px; /* we could use use 1em here, but 10px is a bit more precise */
  }
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> origin/main
  .social .heart {
    background-image: url(./images/heart.png);
  }
@@ -109,6 +113,7 @@ header div a {
  .social .comment {
    background-image: url(./images/comment.png);
  }
+<<<<<<< HEAD
  main {
    display: flex;
    flex-wrap: wrap;
@@ -119,3 +124,50 @@ header div a {
    width: calc(33.333% - 10px); /* Adjust for padding/margins if needed */
    margin-bottom: 20px; /* Add spacing between rows */
  }
+=======
+ 
+ .hero {
+  background-image: url('hero-image.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+/* Card Section Styling */
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+ main {
+   display: flex;
+   flex-wrap: wrap; /* Allow the cards to wrap to the next line */
+   gap: 20px; /* Space between the cards */
+}
+
+.card {
+   flex: 1 1 30%; /* Grow, shrink, and set a base width of 30% */
+   box-sizing: border-box; /* Include padding/border in width calculation */
+   margin: 0; /* Remove any default margin */
+}
+
+>>>>>>> origin/main
